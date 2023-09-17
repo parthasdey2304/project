@@ -10,7 +10,8 @@ export default function NavbarWithCTAButton() {
       <Navbar.Brand href='' className='md:h-24'>
         {/* Fiverr brand name */}
         <span className='self-center text-white whitespace-nowrap text-2xl md:text-5xl font-semibold tracking-tighter'>
-          fiverr <span className='text-green-300 text-5xl'>.</span>
+          {/* fiverr <span className='text-green-300 text-5xl'>.</span> */}
+          Legal Market
         </span>
       </Navbar.Brand>
       <div className='flex md:order-2'>
