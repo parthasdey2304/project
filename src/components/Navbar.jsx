@@ -23,21 +23,24 @@ export default function NavbarWithCTAButton() {
       <Navbar.Collapse>
         {/* Navbar links */}
         <Navbar.Link active href='#' className='md:text-3xl font-bold'>
-          <p className='text-white'>
+          <p className='text-blue-600 bg-white px-4 py-2 rounded-full'>
             Home
           </p>
         </Navbar.Link>
         <Navbar.Link href='#' className='md:text-3xl font-bold text-white'>
-          About
+          <p className='pt-2'>
+            How it works
+          </p>
         </Navbar.Link>
         <Navbar.Link href='#' className='md:text-3xl font-bold text-white'>
-          Services
+          <p className='pt-2'>
+            Explore
+          </p>
         </Navbar.Link>
         <Navbar.Link href='#' className='md:text-3xl font-bold text-white'>
-          Pricing
-        </Navbar.Link>
-        <Navbar.Link href='#' className='md:text-3xl font-bold text-white'>
-          Contact
+          <p className='pt-2'>
+            Find Work
+          </p>
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
