@@ -2,7 +2,8 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Popular_services from "./components/Popular_services";
 import Best_part from "./components/Best_part";
-import Got from "./components/Got";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Banner />
       <Popular_services />
       <Best_part />
-      <Got />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }

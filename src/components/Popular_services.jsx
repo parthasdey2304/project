@@ -13,7 +13,7 @@ function Popular_services() {
 
       {/* This is the div that has the Carousel */}
       <div className='w-full h-[800px]'>
-          <Carousel className='space-x-10'>
+          <Carousel className='space-x-10' slideInterval={2000}>
             <div className='w-full h-[700px] bg-white rounded-xl flex space-x-[80px] p-10'>
               {/* These are the cards inside the carousel when images are to be added */}
               <div className='w-1/4 h-full border-2 border-black bg-blue-600'></div>

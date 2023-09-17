@@ -16,8 +16,8 @@ export default function NavbarWithCTAButton() {
       </Navbar.Brand>
       <div className='flex md:order-2'>
         {/* Sign In button */}
-        <Button rounded className='bg-blue-600 border-2 border-white'>
-          <span className='text-white md:text-3xl font-semibold'>Sign In</span>
+        <Button rounded className='bg-white border-2 border-white hover:bg-blue-600 text-blue-600 hover:text-white'>
+          <span className='md:text-3xl font-semibold'>Sign In</span>
         </Button>
         <Navbar.Toggle />
       </div>
