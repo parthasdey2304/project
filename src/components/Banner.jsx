@@ -1,8 +1,9 @@
 import 'remixicon/fonts/remixicon.css'
+import banner from '../static/img/banner.svg'
 
 function Banner() {
   return (
-    <div className="w-full h-[1400px] bg-blue-600 flex">
+    <div className="w-full h-[1400px] bg-blue-400 flex">
       {/* This is the left side of the banner */}
       <div className="flex-col space-y-10 w-1/2 p-10 pt-[400px]">
         {/* This is the heading inside the banner */}
@@ -22,18 +23,22 @@ function Banner() {
         </div>
 
         <div className='flex space-x-10 text-2xl font-bold text-white px-3'>
-          <span>Popular :</span>
+          <span className='pt-1'>Popular :</span>
           <div className='flex space-x-10'>
-            <button className='border-2 border-white rounded-full px-3 py-1 hover:bg-white hover:text-red-600 duration-300 hover:duration-300'>Advocates</button>
-            <button className='border-2 border-white rounded-full px-3 py-1 hover:bg-white hover:text-red-600 duration-300 hover:duration-300'>Notaries</button>
-            <button className='border-2 border-white rounded-full px-3 py-1 hover:bg-white hover:text-red-600 duration-300 hover:duration-300'>Mediators</button>
+            <button className='border-2 border-white rounded-full px-3 py-1 hover:bg-white hover:text-blue-600 duration-300 hover:duration-300'>Advocates</button>
+            <button className='border-2 border-white rounded-full px-3 py-1 hover:bg-white hover:text-blue-600 duration-300 hover:duration-300'>Notaries</button>
+            <button className='border-2 border-white rounded-full px-3 py-1 hover:bg-white hover:text-blue-600 duration-300 hover:duration-300'>Mediators</button>
           </div>
         </div>
       </div>
 
       {/* This is the right side of the banner */}
-      <div>
+      <div className='pt-52'>
         {/* This has been left empty for now!! */}
+
+        <div className='bg-white/50 w-full rounded-full'>
+            <img src={banner} alt="image" className='w-full h-[800px]' />
+        </div>
       </div>
     </div>
   )
