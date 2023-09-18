@@ -17,7 +17,7 @@ function Banner() {
           </div>
 
           {/* This is the button of the search box */}
-          <button className="h-[90px] w-[150px] bg-[#1DBF73] rounded-tr-lg rounded-br-lg">
+          <button className="h-[90px] w-[150px] bg-[#1DBF73] border-2 border-white rounded-tr-lg rounded-br-lg">
             <i className="ri-search-line text-white text-5xl"></i>
           </button>
         </div>
@@ -36,7 +36,7 @@ function Banner() {
       <div className='pt-52'>
         {/* This has been left empty for now!! */}
 
-        <div className='bg-white/50 w-full rounded-full'>
+        <div className='bg-white/50 w-full rounded-full animate-out fade-in-10 zoom-in-50 duration-150'>
             <img src={banner} alt="image" className='w-full h-[800px]' />
         </div>
       </div>
