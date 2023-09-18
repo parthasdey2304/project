@@ -3,7 +3,7 @@ import 'remixicon/fonts/remixicon.css'
 
 function Contact() {
   return (
-    <div className='w-full h-[800px] bg-white p-10 flex space-x-10'>
+    <div className='w-full h-[800px] bg-white p-10 px-28 flex space-x-10'>
         {/* This is the left panel for the contact information of the company */}
         <div className='w-1/5 h-full bg-gradient-to-br from-blue-400 to-blue-800 rounded-3xl shadow-xl shadow-black flex-col p-10'>
             <div className='w-full mb-10'>
@@ -49,10 +49,13 @@ function Contact() {
         <div className='w-4/5 h-full border-2 rounded-3xl p-10'>
             <div className='text-4xl text-black font-semibold'>Get in touch</div>
 
-            <div></div>
+            <div className='w-full p-10 border-2 rounded-3xl'>
+                <div className='flex justify-between'></div>
+            </div>
+
         </div>
     </div>
   )
-}
+};
 
 export default Contact;
