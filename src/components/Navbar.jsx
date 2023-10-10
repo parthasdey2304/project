@@ -6,7 +6,7 @@ import { Button, Navbar } from 'flowbite-react';
 export default function NavbarWithCTAButton() {
   return (
     /* Navbar component with a red background and height defined for medium screens and above */
-    <Navbar fluid className='bg-blue-600 md:h-32'>
+    <Navbar fluid className='bg-blue-400 fixed w-full md:h-32'>
       <Navbar.Brand href='' className='md:h-24'>
         {/* Fiverr brand name */}
         <span className='self-center text-white whitespace-nowrap text-2xl md:text-5xl font-semibold tracking-tighter'>
